@@ -39,11 +39,11 @@ Laravel 4 için başlangıç kitidir. Nasıl yapılacağına dair örnek olması
 ###1) İndirerek
 ####1.1) Repo kopyalarak ( Clone the Repository )
 
-	git clone http://github.com/brunogaspar/laravel4-starter-kit your-folder
+	git clone git@github.com:makseli/laravel-4-starter.git
 
 ####1.2) Repoyu indirerek
 
-	https://github.com/brunogaspar/laravel4-starter-kit/archive/master.zip
+	https://github.com/makseli/laravel-4-starter/archive/master.zip
 
 -----
 
@@ -63,8 +63,7 @@ Laravel 4 için başlangıç kitidir. Nasıl yapılacağına dair örnek olması
 
 ###3) Veritabanı Ayarı ( Setup Database )
 
-Now that you have the Laravel 4 cloned and all the dependencies installed, you need to create a database for it.
-Şuan bu projeyi kopyalayıp, bağımlılıkları kurduk ve veritabanı oluşturup kullanmaya geldi sıra.
+Şuan bu projeyi kopyalayıp, bağımlılıkları kurduk ve veritabanı oluşturup kullanmaya geldi sıra. ( Now that you have the Laravel 4 cloned and all the dependencies installed, you need to create a database for it. )
 
 Veritabanınızı oluşturduktan sonra, `app/config/database.php` dosyanızı güncelleyin. Veritabanına bağlı olduğunuzdan emin olun.
 
