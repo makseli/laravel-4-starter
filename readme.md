@@ -1,28 +1,26 @@
-##Laravel 4 - Starter Kit
+##Laravel 4 - Başlagıç Kiti
 
-This is a Laravel 4 Starter Kit, it will help you getting started with Laravel 4.
-
-It includes examples on how to use the framework itselff and how to use some packages, like the awesome [Sentry 2](https://github.com/cartalyst/sentry) package.
+Laravel 4 için başlangıç kitidir. Nasıl yapılacağına dair örnek olması için harika bir pakettir. ( thnx https://github.com/liamr/laravel-4-starter )
 
 -----
 
-##Included goodies
+##İçinde Kullanılanlar
 
 * Twitter Bootstrap 2.3.0
 * jQuery 1.9.1
 * Custom CLI Installer
-* Custom Error Pages:
+* Özel hata sayfaları:
 	* 403 for forbidden page accesses
 	* 404 for not found pages
 	* 500 for internal server errors
-* Cartalyst Sentry 2 for Authentication and Authorization
+* Cartalyst Sentry 2 for Authentication and Authorization [Sentry 2](https://github.com/cartalyst/sentry)
 * Back-end
-	* User and Group management
-	* Manage blog posts and comments
+	* Kullanıcı ve grup yönetimi (User and Group management)
+	* Blog ve Yazı yönetimi ( Manage blog posts and comments )
 * Front-end
-	* User login, registration, forgot password
-	* User account area
-	* Simple Blog functionality
+	* Kullanıcı yönetimi ( User login, registration, forgot password )
+	* Kullanıcı hesabı alanı ( User account area )
+	* Basit blog fonksiyonları ( Simple Blog functionality )
 * Packages included:
 	* [Cartalyst Sentry 2](https://github.com/cartalyst/sentry)
 	* [Jason Lewis Expressive Date](https://github.com/jasonlewis/expressive-date)
@@ -30,26 +28,26 @@ It includes examples on how to use the framework itselff and how to use some pac
 
 -----
 
-##How to run Vagrant
+##Vagrant nasıl çalıştırılır
 
  - Look at instructions in the puppet folder for more, but the basics go:
 
  - 1. `vagrant up`
 
-##How to Install Laravel
+##Laravel 4 Başlangıç kiti nasıl kurulur
 
-###1) Downloading
+###1) İndirerek
 ####1.1) Clone the Repository
 
 	git clone http://github.com/brunogaspar/laravel4-starter-kit your-folder
 
-####1.2) Download the Repository
+####1.2) Repoyu indirerek
 
 	https://github.com/brunogaspar/laravel4-starter-kit/archive/master.zip
 
 -----
 
-###2) Install the Dependencies via Composer
+###2) Composer ile bağımlılıkları yüklemek ( Install the Dependencies via Composer )
 #####2.1) If you don't have composer installed globally
 
 	cd your-folder
